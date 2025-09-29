@@ -1,20 +1,46 @@
 /*
-Display:
-1. none: hide element and REMOVE his place
-2. block: (previous commit)
-3. inline: (previous commit)
-4. inline-block: (previous commit)
-
-Visibility:
-1. visible: visible :)
-2. hidden: hide element and KEEP his place
+Grouping Multiple Selectors:
+- To avoid proprties redundancy, you can group them as bellow.
+- Easier to read and maintain.
 */
 
-div {
-    background-color: red;
-    margin: 10px;
+.one {
+    /* padding: 10px; */
+    border-bottom: 1px solid red;
+    color: red;
+    /* margin: 10px 0;
+    background-color: #EEE; */
 }
 
-.first {
-    visibility: hidden;
+.two {
+    /* padding: 10px; */
+    border-bottom: 1px solid green;
+    color: green;
+    /* margin: 10px 0;
+    background-color: #EEE; */
+}
+
+.three {
+    /* padding: 10px; */
+    border-bottom: 1px solid blue;
+    color: blue;
+    /* margin: 10px 0;
+    background-color: #EEE; */
+}
+
+.four {
+    /* padding: 10px; */
+    border-bottom: 1px solid black;
+    color: black;
+    /* margin: 10px 0;
+    background-color: #EEE; */
+}
+
+.one,
+.two,
+.three,
+.four {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
 }
