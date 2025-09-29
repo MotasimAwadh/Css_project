@@ -1,47 +1,16 @@
-/*
-Grouping Multiple Selectors:
-- To avoid proprties redundancy, you can group them as bellow.
-- Easier to read and maintain.
+/* 
+Nesting:
+- to protect from overriding.
 */
 
-.one {
-    /* padding: 10px; */
-    border-bottom: 1px solid red;
+div p { /* this will apply to p elements that inside div only*/
     color: red;
-    /* margin: 10px 0;
-    background-color: #EEE; */
 }
 
-.two {
-    /* padding: 10px; */
-    border-bottom: 1px solid green;
-    color: green;
-    /* margin: 10px 0;
-    background-color: #EEE; */
-}
-
-.three {
-    /* padding: 10px; */
-    border-bottom: 1px solid blue;
+p { /* this will apply to all p elements, exept neted p elements (like previous)*/
     color: blue;
-    /* margin: 10px 0;
-    background-color: #EEE; */
 }
 
-.four {
-    /* padding: 10px; */
-    border-bottom: 1px solid black;
-    color: black;
-    /* margin: 10px 0;
-    background-color: #EEE; */
-}
-
-.one,
-.two,
-.three,
-.four,
-p {
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #EEE;
+div.special {
+    color: green;
 }
