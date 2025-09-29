@@ -1,0 +1,21 @@
+/*
+Block
+1. Take full width if no width
+2. Add line break
+3. Respect padding, margin, height, and width
+
+Inline
+1. Don't respect width and height
+2. Don't add line break
+3. Respect Padding and Margin [ just left + right ]
+
+Inline-Block
+1. Allow element before and after it
+2. Respect padding, margin, height, and width
+
+*/
+
+span {
+    background-color: red;
+    display: inline;
+}
