@@ -1,21 +1,20 @@
 /*
-Block
-1. Take full width if no width
-2. Add line break
-3. Respect padding, margin, height, and width
+Display:
+1. none: hide element and REMOVE his place
+2. block: (previous commit)
+3. inline: (previous commit)
+4. inline-block: (previous commit)
 
-Inline
-1. Don't respect width and height
-2. Don't add line break
-3. Respect Padding and Margin [ just left + right ]
-
-Inline-Block
-1. Allow element before and after it
-2. Respect padding, margin, height, and width
-
+Visibility:
+1. visible: visible :)
+2. hidden: hide element and KEEP his place
 */
 
-span {
+div {
     background-color: red;
-    display: inline;
+    margin: 10px;
+}
+
+.first {
+    visibility: hidden;
 }
