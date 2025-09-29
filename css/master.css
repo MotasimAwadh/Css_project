@@ -39,7 +39,8 @@ Grouping Multiple Selectors:
 .one,
 .two,
 .three,
-.four {
+.four,
+p {
     padding: 10px;
     margin: 10px 0;
     background-color: #EEE;
