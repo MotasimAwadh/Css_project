@@ -1,16 +1,23 @@
 /* 
-Nesting:
-- to protect from overriding.
+Dimensions: Width and Height
+Note: height default value is: auto
 */
 
-div p { /* this will apply to p elements that inside div only*/
-    color: red;
-}
+div {
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    min-width: 400px; /*at least 400px. if more it will extend*/
+    max-width: 500px; /*if extended content reach 500, add new line.*/
+    /*height has the same*/
+    min-height: 40px;
+    max-height: 80px;
+} 
 
-p { /* this will apply to all p elements, exept neted p elements (like previous)*/
-    color: blue;
-}
 
-div.special {
-    color: green;
+.test-div {
+    background-color: red;
+    padding: 10px;
+    /*to set width as content width*/
+    width: fit-content;
 }
