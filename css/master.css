@@ -1,9 +1,15 @@
 /* 
-Text - Decoration And Transform
+Text - Spacing
+ - Letter spacing: Add space between characters.
+ - Indentation: Add space before text.
+ - Line height: Add height between lines.
+ - Word spacing: Same as letter spacing but with words.
+ - wrapping: 
+ - white space: Continue in line if no wrap.
 */
 
 div {
-    background-color: #F9F9F9;
-    text-decoration: line-through; /*exp: to add or remove underline from links.*/
-    text-transform: capitalize; /*It's better to edit this on HTML template.*/
+    background-color: yellow;
+    width: 300px;
+    white-space: ;
 } 
