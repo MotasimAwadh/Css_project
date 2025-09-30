@@ -1,23 +1,17 @@
 /* 
-Dimensions: Width and Height
-Note: height default value is: auto
+Overflow - Overflow-X And Overflow-Y
+Overflow default value: visible
+hidden: Hide overflowed content
+scroll: Add scroll bar to content
+auto: Add scroll bar if content overflowed. otherwise, use width value
+- You can control over flow with x,y-axis.
 */
 
 div {
-    background-color: red;
-    padding: 10px;
-    display: inline-block;
-    min-width: 400px; /*at least 400px. if more it will extend*/
-    max-width: 500px; /*if extended content reach 500, add new line.*/
-    /*height has the same*/
-    min-height: 40px;
-    max-height: 80px;
+    background-color: #EEE;
+    height: 150px; /*overflow here with (content higher than height)*/
+    width: 150px; 
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: auto;
 } 
-
-
-.test-div {
-    background-color: red;
-    padding: 10px;
-    /*to set width as content width*/
-    width: fit-content;
-}
