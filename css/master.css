@@ -1,12 +1,9 @@
 /* 
-Text - Alignment
-same as word.
-يمين منتصف يسار
+Text - Decoration And Transform
 */
 
 div {
     background-color: #F9F9F9;
-    text-align: center;
-    direction: ltr;
-    vertical-align: top;
+    text-decoration: line-through; /*exp: to add or remove underline from links.*/
+    text-transform: capitalize; /*It's better to edit this on HTML template.*/
 } 
