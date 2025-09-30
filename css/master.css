@@ -1,15 +1,12 @@
 /* 
-Text - Color And Shadow
-shadow:
-h-shadow
-v-shadow
-blur
-shadow-color
+Text - Alignment
+same as word.
+يمين منتصف يسار
 */
 
 div {
     background-color: #F9F9F9;
-    padding: 20px;
-    color: rebeccapurple;
-    text-shadow: 1px 1px 5px red; /*h v blur color*/
+    text-align: center;
+    direction: ltr;
+    vertical-align: top;
 } 
